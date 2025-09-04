@@ -20,6 +20,10 @@ def potencia(a: float, b: float) -> float:
     #Eleva la base al exponente.
     return a ** b
 
+def elevar_cuadrado(a: float) -> float:
+    #Eleva un número al cuadrado.
+    return a ** 2
+
 if __name__ == "__main__":
     print(sumar(2, 3))          #5
     print(restar(5, 1))         #4
